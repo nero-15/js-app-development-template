@@ -1,0 +1,29 @@
+{
+  "name": "js-app-development-template",
+  "version": "1.0.0",
+  "description": "javascript アプリ開発時のテンプレート",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js",
+    "server": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nero-15/js-app-development-template.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nero-15/js-app-development-template/issues"
+  },
+  "homepage": "https://github.com/nero-15/js-app-development-template#readme",
+  "devDependencies": {
+    "express": "^4.17.1",
+    "html-webpack-plugin": "^5.3.1",
+    "webpack": "^5.33.2",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-middleware": "^4.1.0"
+  }
+}
